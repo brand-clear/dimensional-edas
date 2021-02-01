@@ -1,0 +1,74 @@
+132167-SESL-MFG-CE_QC1.csv
+- Contains a datum plane, but no other datum planes.
+- No corrective actions
+
+132279-INSS-MFG-B_QC1.csv
+- 'plane 2' x_dev due to large tolerance
+- No corrective actions
+
+132279-INSS-MFG-C_QC1.csv
+- 'plane 4' x_dev due to large tolerance
+- No corrective actions
+
+132279-INSS-MFG-D_QC1.csv
+- 'plane 3' x_dev due to large tolerance
+- No corrective actions
+
+
+132374-GASS-MFG-NTED_REV0_QC1.csv
+- 'plane 1' was under size, approved by Scott Collins
+- No corrective actions
+
+132374-GASS-MFG-TEB_QC1.csv
+- 'plane 1' model value was incorrect
+- Corrective action: Update x_nom to .453 and x_dev to .0001
+
+133275-INSS-MFG-B_QC1.csv
+- 'datum cylinder B' diameter_meas probe value was incorrect
+- Corrective action: Set diameter_meas to 5.4943 and update diameter_dev
+
+132164-SESL-MFG-TE_QC1.csv
+- 'cylinder 1', 'cylinder 2', and 'cylinder 3' runout is documented excessively high (confirmed with reinspection), likely due to moving part during inspection
+- Corrective action: Set total_runout_ab to np.nan
+
+132674-INSS-MFG-C.csv
+- 'cylinder 1', 'cylinder 2', 'cylinder 3', and 'cylinder 4' runout is documented excessively high (confirmed with reinspection), likely due to moving part during inspection
+- Corrective action: Set total_runout_ab to np.nan
+
+132279-INSS-MFG-C_QC1.csv
+- 'cylinder 5' diameter_dev due to large tolerance
+- Corrective action: Remove 'cylinder 5' due to this being a relief area
+
+132374-GASS-MFG-NTEB_QC1.csv
+- 'cylinder 2' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+132374-GASS-MFG-NTEC_QC1.csv
+- 'cylinder 1' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+132374-GASS-MFG-TEB_QC1.csv
+- 'cylinder 2' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+132374-GASS-MFG-TEC_REV0_QC1.csv
+- 'cylinder 1' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+132377-GASS-MFG-CETEC_QC1.csv
+- 'cylinder 1' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+132377-GASS-MFG-NTEC_QC1.csv
+- 'cylinder 1' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+132377-GASS-MFG-TEC_QC1.csv
+- 'cylinder 1' diameter_nom is incorrect
+- Corrective action: Remove cylinder so that inconsistent drafting standards to not skew the data
+
+133275-INSS-MFG-A_QC1.csv
+- 'cylinder 4' diameter_dev due to large tolerance
+- Remove 'cylinder 4' due to this being a relief area
+
+
