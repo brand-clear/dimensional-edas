@@ -493,7 +493,6 @@ class InspectionDatabase():
 		Specifies if the FeatureDataFrames are to be updated after 
 		deserialization, optional. The default is True.
 
-
 	"""
 
 	_DATUM_MAP = {'A': 'datum plane A', 'B': 'datum cylinder B', 
@@ -621,7 +620,7 @@ class InspectionDatabase():
 		self.points = PointDataFrame(False)
 
 		if update:
-			self.get_new_features
+			self.get_new_features()
 
 
 	def part_ids_only(self, ids, df):
