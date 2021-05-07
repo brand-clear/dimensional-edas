@@ -1,3 +1,3 @@
 # dimensional-reporting
 
-Contains a data analysis library for interpreting final inspection data.
+A dimensional analysis of final inspection data.
